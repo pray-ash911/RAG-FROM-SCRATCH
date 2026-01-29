@@ -1,0 +1,3 @@
+"""
+Dense embedding generation logic.
+"""
