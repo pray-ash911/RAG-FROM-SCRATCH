@@ -17,7 +17,7 @@ def get_gemini_model(api_key: str):
     )
 
     model = genai.GenerativeModel(
-        model_name="gemini-1.5-flash", # Use the stable ID
+        model_name="gemini-3-flash-preview", # Use the stable ID
         generation_config=config,      # Now the types match!
     )
     return model
