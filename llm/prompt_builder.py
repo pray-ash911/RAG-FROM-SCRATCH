@@ -6,9 +6,8 @@ def build_rag_prompt(query: str, retrieved_chunks: list):
     prompt = f"""
 You are an expert research assistant.
 
-Answer the question using ONLY the provided context.
-If the answer is not in the context, say you don't know.
-
+Answer the question using ONLY the provided context and while answering give in clean text format removing symbols like *,#.
+If the answer is not in the context, say sorry i dont have that information right now Thankyou!!.
 Context:
 {context}
 

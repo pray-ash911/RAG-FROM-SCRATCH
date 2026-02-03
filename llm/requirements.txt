@@ -1,4 +1,4 @@
-pdfplumber
+dfplumber
 sentence_transformers
 nltk
 rank_bm25
